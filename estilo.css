@@ -1,0 +1,68 @@
+.conteudo {
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+body, html {
+    color: #777;
+    margin: 0px;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+h3 {
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+.caixa1 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: url("iamgens/imagem1.jpg") ;
+}
+.caixa2 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: url("iamgens/imagem2.jpg");
+}
+.caixa3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: url("iamgens/imagem3.jpg");
+}
+.caixa4 {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url("iamgens/imagem4.jpg");
+}
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background: #111;
+    letter-spacing: 5px;
+    font-size: 2em;
+    padding: 18px;
+}
